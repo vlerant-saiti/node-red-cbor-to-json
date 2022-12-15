@@ -1,5 +1,7 @@
 module.exports = function (RED) {
     const cb = require('cbor');
+    const assert = require('assert');
+
 
     function CBORNode(config) {
         RED.nodes.createNode(this, config);
