@@ -1,0 +1,27 @@
+{
+  "name": "node-red-cbor-to-json",
+  "version": "1.0.0",
+  "description": "encode/decode cbor to json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SODAQ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vlerant-saiti/node-red-cbor-to-json"
+  },
+  "node-red": {
+    "nodes": {
+      "cbor": "node-red-cbor-to-json.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "cbor",
+    "json"
+  ],
+  "dependencies": {
+    "cbor": "^8.1.0"
+  }
+}
